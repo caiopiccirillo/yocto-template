@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/cpp:0-ubuntu-22.04
 
-ARG YOCTO_RELEASE=langdale
+ARG YOCTO_RELEASE=kirkstone
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
